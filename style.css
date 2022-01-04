@@ -6,6 +6,10 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    font-size: 40px;
+}
+
 .orange{
     color: orange;
 }
@@ -49,4 +53,31 @@ h1{
 }
 .pp{
     padding-right: 200px;
+}
+.experi{
+    box-shadow: 10px 10px 40px red;
+    width: 40%;
+    margin-left: 5%;
+    padding: 30px;
+}
+.ex{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#pos{
+    margin-left: 200px;
+}
+#experi-id{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+
+#exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, purple);
+    border-image-slice: 1;
+
 }
